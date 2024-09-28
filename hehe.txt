@@ -1,0 +1,41 @@
+Basic Plan - Free
+
+Ticket Booking
+Book tickets for buses with ease and manage your bookings within the app.
+
+Trip Details
+Access basic trip details such as bus number, departure time, and arrival time.
+
+Cancellations
+Cancel and modify your bookings for free before departure.
+
+Notifications
+Receive timely notifications about upcoming trips and booking confirmations.
+
+Premium Plan - Rs 50 per month
+
+Real-Time Bus Tracking
+Get the real-time location of your bus, including its next stop or the hotel it will stop for meals.
+
+Stop & Rest Locations
+Know in advance where your bus will stop for breaks or meals during the trip.
+
+Priority Support
+Enjoy quicker response times and dedicated customer support.
+
+Exclusive Discounts
+Access discounts on selected routes and special promotions.
+
+Elite Plan - Coming Soon
+
+Automatic Data Storage
+The app will automatically record your travel information and data by simply scanning when you board the bus, even if you haven’t pre-booked.
+
+Safety Alerts
+Receive real-time safety alerts and information about the passengers traveling with you for added security.
+
+Advanced Trip History
+View and track your complete travel history, including previous trips and tickets booked.
+
+Emergency Contact Sharing
+Automatically share your travel details with your emergency contacts when you board the bus.

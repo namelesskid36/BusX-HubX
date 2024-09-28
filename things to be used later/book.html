@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <section class="section__container booking__container">
+        <div class="booking__nav">
+          <span>Buses</span>
+          <span>BUSX</span>
+          <span>Cabs</span>
+        </div>
+        <form>
+          <div class="form__group">
+            <span><i class="ri-map-pin-line"></i></span>
+            <div class="input__content">
+              <div class="input__group">
+                <input type="text" />
+                <label>Location</label>
+              </div>
+              <p>Where are you goung?</p>
+            </div>
+          </div>
+          <div class="form__group">
+            <span><i class="ri-user-3-line"></i></span>
+            <div class="input__content">
+              <div class="input__group">
+                <input type="number" />
+                <label>Travellers</label>
+              </div>
+              <p>Add guests</p>
+            </div>
+          </div>
+          <div class="form__group">
+            <span><i class="ri-calendar-line"></i></span>
+            <div class="input__content">
+              <div class="input__group">
+                <input type="text" />
+                <label>Departure</label>
+              </div>
+              <p>Add date</p>
+            </div>
+          </div>
+          <div class="form__group">
+            <span><i class="ri-calendar-line"></i></span>
+            <div class="input__content">
+              <div class="input__group">
+                <input type="text" />
+                <label>Return</label>
+              </div>
+              <p>Add date</p>
+            </div>
+          </div>
+          <button class="btn"><i class="ri-search-line"></i></button>
+        </form>
+      </section>
+    
+</body>
+</html>
+  <style>
+
+:root {
+  --primary-color: #3d5cb8;
+  --primary-color-dark: #334c99;
+  --text-dark: #0f172a;
+  --text-light: #64748b;
+  --extra-light: #f1f5f9;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: #3d5cb8;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.header__container .section__header {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.booking__container {
+  border-radius: 2rem;
+  border: 1px solid #f1f5f9;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.booking__nav {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+}
+
+.booking__nav span {
+  flex: 1;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  color: #64748b;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking__nav span:nth-child(2) {
+  color: white;
+  background-color: #3d5cb8;
+}
+
+.booking__container form {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  gap: 1rem;
+}
+
+.booking__container .input__content {
+  width: 100%;
+}
+
+.booking__container .form__group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.booking__container .form__group span {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  background-color: #f1f5f9;
+  border-radius: 1rem;
+}
+
+.booking__container .input__group {
+  width: 100%;
+  position: relative;
+}
+
+.booking__container label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.booking__container input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #3d5cb8;
+  color: var(--text-dark);
+}
+
+.booking__container input:focus ~ label {
+  font-size: 0.8rem;
+  top: 0;
+}
+
+.booking__container .form__group p {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.booking__container .btn {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+  </style>
