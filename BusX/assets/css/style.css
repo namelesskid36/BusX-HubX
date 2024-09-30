@@ -168,11 +168,12 @@ body {
   background-image: linear-gradient(to right,
       rgba(44, 56, 85, 0.9),
       rgba(100, 125, 187, 0.1)),
-    url("/busX-1/assets/images/buses.jpeg");
+    url("/BusX/assets/images/buses.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 2rem;
+  
 }
 
 .airep__container {
