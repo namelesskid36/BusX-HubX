@@ -1,16 +1,16 @@
 :root {
 
   --chinese-violet_30: hsla(304, 14%, 46%, 0.3);
-  --chinese-violet: hsl(304, 14%, 46%);
-  --sonic-silver: hsl(208, 7%, 46%);
+  --chinese-violet: hsla(304, 14%, 46%, 0.3);
+  --text-color: #6B6E70;
   --old-rose_30: hsla(357, 37%, 62%, 0.3);
   --ghost-white: hsl(233, 33%, 95%);
-  --light-pink: hsl(357, 93%, 84%);
-  --light-gray: hsl(0, 0%, 80%);
-  --old-rose: hsl(357, 37%, 62%);
-  --seashell: hsl(20, 43%, 93%);
-  --charcoal: hsl(203, 30%, 26%);
-  --white: hsl(0, 0%, 100%);
+  --dark-color: #18191A;
+  --light-black: #222629;
+  --old-rose: #69757e;
+  --background: #141516;
+  --sky-blue: #768ca1;
+  --white: #16191d;
 
   --ff-philosopher: 'Philosopher', sans-serif;
   --ff-poppins: 'Poppins', sans-serif;
@@ -44,13 +44,7 @@
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
-
 }
-
-
-
-
-
 
 *,
 *::before,
@@ -117,7 +111,7 @@ html {
 
 body {
   background-color: var(--white);
-  color: var(--sonic-silver);
+  color: var(--text-color);
   font-size: 1.6rem;
   line-height: 1.8;
 }
@@ -159,7 +153,7 @@ body {
 .header__container {
   padding: 1rem 1rem 5rem 1rem;
   padding-bottom: 1rem;
-  background-color: var(--seashell);
+  background-color: var(--background);
 }
 
 .header__image__container {
@@ -267,7 +261,7 @@ body {
 }
 
 .section:nth-child(odd) {
-  background-color: var(--seashell);
+  background-color: var(--background);
 }
 
 .section-subtitle {
@@ -282,7 +276,7 @@ body {
 .h2,
 .h3,
 .tab-text {
-  color: var(--charcoal);
+  color: var(--sky-blue);
   font-family: var(--ff-philosopher);
   line-height: 1.2;
 }
@@ -391,7 +385,7 @@ body {
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
-  background-color: var(--light-gray);
+  background-color: var(--light-black);
 }
 
 .img-cover {
@@ -446,13 +440,13 @@ body {
 .logo {
   font-family: var(--ff-philosopher);
   font-size: 4rem;
-  color: var(--charcoal);
+  color: var(--sky-blue);
   line-height: 1;
 }
 
 .nav-toggle-btn {
   font-size: 40px;
-  color: var(--charcoal);
+  color: var(--sky-blue);
 }
 
 .nav-toggle-btn ion-icon {
@@ -493,7 +487,7 @@ body {
 }
 
 .navbar-link {
-  color: var(--charcoal);
+  color: var(--sky-blue);
   padding-block: 8px;
   line-height: 1.5;
   transition: var(--transition-1);
@@ -546,7 +540,7 @@ body {
   right: 30px;
   bottom: 0;
   left: 0;
-  background-color: var(--light-pink);
+  background-color: var(--dark-color);
   border-radius: var(--radius-10);
   z-index: -1;
 }
@@ -690,7 +684,7 @@ body {
 .tab-card {
   position: relative;
   height: 60px;
-  background-color: var(--seashell);
+  background-color: var(--background);
   border-radius: var(--radius-10);
   box-shadow: var(--shadow-3);
   display: grid;
@@ -761,7 +755,7 @@ body {
 .services-card .price {
   font-family: var(--ff-philosopher);
   font-size: var(--fs-1);
-  color: var(--charcoal);
+  color: var(--sky-blue);
   font-weight: var(--fw-700);
   margin-block-start: 10px;
 }
@@ -788,7 +782,7 @@ body {
 
 
 .knowus {
-  background-color: var(--seashell);
+  background-color: var(--background);
 }
 
 .knowus .container {
@@ -824,7 +818,7 @@ body {
 }
 
 .objectives-card {
-  background-color: var(--seashell);
+  background-color: var(--background);
   box-shadow: var(--shadow-4);
   overflow: hidden;
   transition: var(--transition-2);
@@ -857,7 +851,7 @@ body {
 }
 
 .contact-form {
-  background-color: var(--seashell);
+  background-color: var(--background);
   padding: 20px;
 }
 
@@ -885,7 +879,7 @@ textarea.input-field {
 }
 
 .contact-card {
-  background-color: var(--seashell);
+  background-color: var(--background);
   padding: 30px;
 }
 
@@ -939,7 +933,7 @@ textarea.input-field {
 
 
 .footer {
-  background-color: var(--seashell);
+  background-color: var(--background);
   text-align: center;
 }
 
@@ -960,7 +954,7 @@ textarea.input-field {
 }
 
 .footer-link {
-  color: var(--charcoal);
+  color: var(--sky-blue);
   transition: var(--transition-1);
 }
 

@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background:hsl(20, 43%, 93%);
+    background: #141516;
   }
   .tickets {
     width: 550px;
@@ -15,10 +15,10 @@
     padding: 10px;
     font-family: poppins;
     max-height: 96vh;
-    background: hsl(20, 43%, 93%);
+    background: #141516;
   }
   .ticket-selector {
-    background: hsl(20, 43%, 93%);
+    background: #141516;
     display: flex;
     align-items: center;
     justify-content: space-between;
